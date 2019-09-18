@@ -1,0 +1,24 @@
+#sources {
+    background: deeppink;
+    list-style-type: none;
+}
+
+#images {
+    list-style-type: none;
+}
+
+body {
+    background-color: lightgray;
+}
+
+hr {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}

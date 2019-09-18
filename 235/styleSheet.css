@@ -1,0 +1,34 @@
+* {
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-align: left;
+}
+
+#git:link {
+    color: blue;
+}
+
+#git:visited {
+    color: black;
+}
+
+.bio {
+    color: lightcoral;
+}
+
+.projects {
+    list-style: none;
+}
+
+#justin {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: -75px;
+    left: 300px;
+    margin-bottom: 0px;
+}
