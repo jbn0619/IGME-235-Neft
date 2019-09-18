@@ -4,16 +4,24 @@
 }
 
 h1 {
-    color: red;
+    color: darkred;
     text-align: left;
 }
 
-#git:link {
-    color: blue;
+a:link {
+    color: darkgoldenrod;
 }
 
-#git:visited {
+a:visited {
     color: black;
+}
+
+a:hover {
+    color:darkcyan;
+}
+
+a:active {
+    color: hotpink;
 }
 
 .bio {
@@ -22,14 +30,26 @@ h1 {
 
 .projects {
     list-style: none;
-    margin-left: -2em;
+    margin-left: -113em;
 }
 
 #justin {
-    width: 150px;
-    height: 200px;
-    position: relative;
-    top: -75px;
-    left: 300px;
+    width: 225px;
+    height: 300px;
+    position: fixed;
+    top: 75px;
+    left: 1200px;
     margin-bottom: 0px;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+a {
+    margin-left: -112em;
 }
