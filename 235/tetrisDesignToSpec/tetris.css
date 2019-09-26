@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #e0e2db;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #13295c;
+    
+}
+
+header div {
+    text-align: left;
+}
+
+header div h1 {
+    text-align: left;
+}
+
+#reddit {
+    max-width: 1350px;
+    height: auto;
+}
+
+#gamingIcon {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #2e3532;
+    
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+
+p {
+    font-size: 20px;
+}
+
+footer p {
+    text-align: right;
+}
+
+div img {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.GreyBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.GreyBoxes div {
+    background-color: #d2d4c8;
+    width: 300px;
+    height: 500px;
+}
+
+.RedBoxes {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.RedBoxes div {
+    background-color: #bc0c06;
+    width: 600px;
+    height: 500px;
+}
