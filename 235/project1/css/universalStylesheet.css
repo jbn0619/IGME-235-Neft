@@ -1,0 +1,30 @@
+* {
+    font-family: "Times New Roman", serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/*Navigation stylings*/
+nav ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    
+    width: 100px;
+}
+
+li:hover {
+    background-color: darkgray;
+}
+
+#currentPage {
+    background-color: limegreen;
+    display: block;
+    width: 100px;
+}
