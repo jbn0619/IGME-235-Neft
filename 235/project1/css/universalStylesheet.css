@@ -2,6 +2,7 @@
     font-family: "Times New Roman", serif;
     background-color: lightgray;
     text-align: center;
+    font-size: 20px;
 }
 
 /*Navigation stylings*/
@@ -11,7 +12,7 @@ nav ul {
 }
 
 ul li {
-    display: inline-block;
+    display: flex;
 }
 
 ul li a{
