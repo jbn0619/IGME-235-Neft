@@ -1,0 +1,92 @@
+section {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+section.credits {
+    border-bottom-style: none;
+}
+
+#flexContainer {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.screenshots img {
+    max-width: 350px;
+    max-height: 500px;
+    min-width: 250px;
+}
+
+/*This section of code is meant for larger, non-mobile screens*/
+@media only screen and (min-width: 650px) {
+    header, main, footer {
+        max-width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "introduction    highConcept"
+            "genre    platform"
+            "story    esthetics"
+            "gameplay    screenshots"
+            "otherInfo    aboutTheDev";        
+    }
+
+    main section {
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .introduction {
+        grid-area: introduction;
+    }
+
+    .highConcept {
+        grid-area: highConcept;
+    }
+
+    .genre {
+        grid-area: genre;
+    }
+
+    .platform {
+        grid-area: platform;
+    }
+
+    .story {
+        grid-area: story;
+    }
+
+    .esthetics {
+        grid-area: esthetics;
+    }
+
+    .gameplay {
+        grid-area: gameplay;
+    }
+
+    .screenshots {
+        grid-area: screenshots;
+    }
+
+    .otherInfo {
+        grid-area: otherInfo;
+    }
+
+    .aboutTheDevelopers {
+        grid-area: aboutTheDev;
+    }
+
+    .credits {
+        max-width: 100%;
+    }
+
+}

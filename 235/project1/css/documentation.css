@@ -1,0 +1,60 @@
+section {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+section.credits {
+    border-bottom-style: none;
+}
+
+/*This section of code is meant for larger, non-mobile screens*/
+@media only screen and (min-width: 650px) {
+    header, main, footer {
+        max-width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "image image"
+            "proccess resources"
+            "notes sources";        
+    }
+
+    main section {
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-color: black;
+    }
+
+    main img {
+        margin-left: auto;
+        margin-right: auto;
+        grid-area: image;
+        max-width: 50%;
+    }
+
+    section.proccess {
+        grid-area: proccess;
+    }
+
+    section.resources {
+        grid-area: resources;
+    }
+
+    section.notes {
+        grid-area: notes;
+    }
+
+    section.sources {
+        grid-area: sources;
+    }
+
+    section.credits {
+        max-width: 100%;
+    }
+
+}
