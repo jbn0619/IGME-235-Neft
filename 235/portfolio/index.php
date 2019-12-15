@@ -11,10 +11,10 @@
             <h1>Justin Neft</h1>
             <nav>
                 <ul id="listItems">
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,9 +27,17 @@
                 </p>
             </section>
     
+            <h3>Projects</h3>
             <section id="portfolio">
-                <h3>Projects</h3>
+                
                 <div class="project">
+                    <h4>Lost & Found</h4>
+                </div>
+                <div class="project">
+                    <h4>Ultimis Project</h4>
+                </div>
+                <div class="project">
+                    <h4>Game Jam for a Cause</h4>
 
                 </div>
             </section>

@@ -1,8 +1,31 @@
 * {
     text-align: center;
-    background-color: darkslategray;
+    background-color: darkgray;
 }
 
 nav {
     display: flex;
+}
+
+/* Header Stylings */
+header, h1, nav, nav ul, ul li, li a {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Portfolio Section stylings */
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
