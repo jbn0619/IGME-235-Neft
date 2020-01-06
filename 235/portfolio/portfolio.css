@@ -1,8 +1,97 @@
 * {
     text-align: center;
-    background-color: darkslategray;
+    background-color: black;
+    color: white;
 }
 
-nav {
+/* Navbar Stylings */
+
+nav {   
+    font-size: 3em;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: darkgray;
+    border-style: solid;
+    border-width: 4px;
+
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    background-color: darkgray;
+}
+
+a {
+    color: limegreen;
+    background-color: darkgray;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: lightgreen;
+}
+
+/* Portfolio Stylings */
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    max-width: 400px;
+    min-width: 200px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+main, footer {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lf {
+    background-color: black;
+}
+
+/* Contact Me Stylings */
+
+#contact, #contact h1, #contact h3, #contact form, #contact form label {
+    background-color: darkgray;
+    color: black;
+}
+
+input, textarea {
+    background-color: white;
+    color: black;
+}
+
+#submit {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#submit:hover {
+    background-color: white;
 }
